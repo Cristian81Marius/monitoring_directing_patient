@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+
+{% block page_title %}
+        Add health property
+{% endblock %}
+
+{% block content %}
+
+<div>
+        <div>
+                <form action="{{url_for('add_patient_data_smartwatch', patient_id=patient_id)}}" method="post" enctype="multipart/form-data">
+                    <table>
+                        <h3>Data from smrt watch</h3>
+                        <tr>
+                            <td> Weight in LBS *</td>
+                            <td> <input type="number" id="Weight" name="Weight" step="0.01" min="0" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Systolic Blood Pressure *</td>
+                            <td> <input type="number" id="Systolic" name="Systolic" step="0.01" min="0" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Diastolic Blood Pressure *</td>
+                            <td> <input type="number" id="Diastolic" name="Diastolic" step="0.01" min="0" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Mean Arterial Pressure *</td>
+                            <td> <input type="number" id="Arterial" name="Arterial" step="0.01" min="0" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Glucose in MG per DL *</td>
+                            <td> <input type="number" id="Glucose" name="Glucose" step="0.01" min="0" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Estimated A1C *</td>
+                            <td> <input type="number" id="A1C" name="A1C" step="0.01" min="0" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Oxygen </td>
+                            <td> <input type="number" id="Oxygen" name="Oxygen" step="0.01" min="0"> </td>
+                        </tr>
+                        <tr>
+                            <td> Temperature </td>
+                            <td> <input type="number" id="Temperature" name="Temperature" step="0.01" min="0"> </td>
+                        </tr>
+                        <tr>
+                            <td> Activity Calories</td>
+                            <td> <input type="number" id="Activity" name="Activity" step="0.01" min="0"> </td>
+                        </tr>
+
+                    </table>
+                    <button type="submit">Submit</button>
+                </form>
+        </div>
+</div>
+
+
+{% endblock %}

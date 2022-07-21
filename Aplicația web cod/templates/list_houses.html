@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+
+{% block page_title %}
+        Houses
+{% endblock %}
+
+{% block content %}
+<div id="Houses" >
+        <div>
+                <a href="/add/house">ADD NEW HOUSE</a>
+        </div>
+        <table class="table table-striped">
+                <tr>
+                        <th>Name</th>
+                        <th>Town</th>
+                        <th>Street</th>
+                        <th>Nr Street</th>
+                        <th>Capacity</th>
+                        <th>Link Maps</th>
+                        <th>Rooms</th>
+                </tr>
+                {% for house in houses %}
+                <tr>
+                        <td>{{house['name']}}</td>
+                        <td>{{house['town']}}</td>
+                        <td>{{house['street']}}</td>
+                        <td>{{house['number_street']}}</td>
+                        <td>{{house['capacity']}}</td>
+                        <td><a href="{{house['link_maps']}}">Maps</a></td>
+                        <td><a href="{{url_for('patients_from_house', house_id=house['id'])}}">Rooms</a></td>
+                </tr>
+                {% endfor %}
+        </table>
+</div>
+
+
+<!--<script type="module" src="../static/js/main.js" defer></script>-->
+
+{% endblock %}

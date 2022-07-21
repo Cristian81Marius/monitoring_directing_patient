@@ -1,0 +1,134 @@
+{% extends "layout.html" %}
+
+
+{% block page_title %}
+        New Patient
+{% endblock %}
+
+{% block content %}
+
+
+<div>
+        <div>
+                <form action="/add/new/patient" method="post" enctype="multipart/form-data">
+                    <table>
+                        <h3>Personal Data</h3>
+                        <tr>
+                            <td> First name </td>
+                            <td> <input type="text" id="first_name" name="first_name" size="30" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Last name </td>
+                            <td> <input type="text" id="last_name" name="last_name" size="30" required> </td>
+                        </tr>
+                        <tr>
+                            <td> CNP </td>
+                            <td> <input type="text" id="cnp" name="cnp" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Phone Number </td>
+                            <td> <input type="text" id="phone" name="phone" pattern="[0-9]{10}" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Date of birth </td>
+                            <td> <input type="date" id="date_birth" name="date_birth" pattern="\d{4}-\d{2}-\d{2}" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Religion </td>
+                            <td> <input type="text" id="religion" name="religion" > </td>
+                        </tr>
+                        <tr>
+                            <td> Image </td>
+                            <td> <input type="file" id="patient_image" name="patient_image" > </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <h3>Residence</h3>
+                        <tr>
+                            <td> House name </td>
+                            <td> <select id="house_id" name="house_id" required>
+                                {% for house in houses %}
+                                <option value="{{house['id']}}">{{house['name']}}</option>
+                                {% endfor %}
+                            </select> </td>
+                        </tr>
+                        <tr>
+                            <td> Number Room </td>
+                            <td> <input type="number" id="room" name="room" min="0" step="1" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Floor </td>
+                            <td> <input type="number" id="floor" name="floor" min="0" step="1" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Comfort </td>
+                            <td> <input type="number" id="comfort" name="comfort" min="0" max="10" step="1" required> </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <h3>Legal guardian</h3>
+                        <tr>
+                            <td> First name </td>
+                            <td> <input type="text" id="first_name_guardian" name="first_name_guardian" size="30" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Last name </td>
+                            <td> <input type="text" id="last_name_guardian" name="last_name_guardian" size="30" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Phone Number </td>
+                            <td> <input type="text" id="phone_guardian" name="phone_guardian" pattern="[0-9]{10}" required> </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <h3>Patient Devices</h3>
+                        <tr>
+                            <td> Phone ID </td>
+                            <td> <input type="text" id="phone_id" name="phone_id" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Camera ID </td>
+                            <td> <input type="text" id="camera_id" name="camera_id" required> </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <h3>Patient Condition</h3>
+                        <tr>
+                            <td> Disease </td>
+                            <td> <input type="text" id="disease" name="disease"> </td>
+                        </tr>
+                        <tr>
+                            <td> Manifestation </td>
+                            <td> <input type="text" id="manifestation" name="manifestation"> </td>
+                        </tr>
+                        <tr>
+                            <td> Unexpected Events </td>
+                            <td> <input type="text" id="unexpected_events" name="unexpected_events"> </td>
+                        </tr>
+                        <tr>
+                            <td> Limitation </td>
+                            <td> <input type="text" id="limitation" name="limitation"> </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <h3>Patient Treatment</h3>
+                        <tr>
+                            <td> Medical Supplies </td>
+                            <td> <input type="text" id="medical_supplies" name="medical_supplies"> </td>
+                        </tr>
+                        <tr>
+                            <td> Recommended Activity </td>
+                            <td> <input type="text" id="recommended_activity" name="recommended_activity"> </td>
+                        </tr>
+                        <tr>
+                            <td> Travel Perimeter </td>
+                            <td> <input type="number" id="perimeter" name="perimeter" min="0" step="1" required value="0"> </td>
+                        </tr>
+                    </table>
+                    <button type="submit" class="btn btn-dark">Add patient!</button>
+                </form>
+        </div>
+</div>
+
+
+{% endblock %}

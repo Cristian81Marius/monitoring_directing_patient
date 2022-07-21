@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+
+{% block page_title %}
+        Health Property
+{% endblock %}
+
+{% block content %}
+
+<a href="{{url_for('new_health_property', patient_id = patient_id)}}">NEW HEALTH PROPERTY FROM WATCH</a>
+
+<div>
+        <table class="table table-striped">
+                <tr>
+                        <th>Data</th>
+                        <th>Body Composition</th>
+                        <th>Systolic Blood Pressure</th>
+                        <th>Diastolic Blood Pressure</th>
+                        <th>Mean Arterial Pressure</th>
+                        <th>Glucose in MG per DL</th>
+                        <th>Estimated A1C</th>
+                        <th>Oxygen</th>
+                        <th>Temperature</th>
+                        <th>Activity</th>
+                </tr>
+                {% for data in watch_data%}
+                <tr>
+                        <td>{{data['data_measure']}}</td>
+                        <td>{{data['body_composition']}}</td>
+                        <td>{{data['systolic_blood_pressure']}}</td>
+                        <td>{{data['diastolic_blood_pressure']}}</td>
+                        <td>{{data['arterial_pressure']}}</td>
+                        <td>{{data['glucose']}}</td>
+                        <td>{{data['a1c']}}</td>
+                        <td>{{data['oxygen']}}</td>
+                        <td>{{data['temperature']}}</td>
+                        <td>{{data['activity_calories']}}</td>
+                </tr>
+                {% endfor %}
+        </table>
+</div>
+
+<div>
+        <table class="table table-striped">
+                <tr>
+                        <th>Data</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                </tr>
+                {% for data in phone_data%}
+                <tr>
+                        <td>{{data['data_take_location']}}</td>
+                        <td>{{data['longitude']}}</td>
+                        <td>{{data['latitude']}}</td>
+                </tr>
+                {% endfor %}
+        </table>
+</div>
+
+
+{% endblock %}

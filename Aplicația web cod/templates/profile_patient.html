@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+        Patient profile
+{% endblock %}
+
+{% block content %}
+
+<div >
+        <h3> {{patient['last_name']}} {{patient['first_name']}}</h3>
+        <div>
+                {% if patient['image'] != null %}
+        <img src="{{patient['image']}}" alt="Mountain" style="width:100px">
+                {% endif %}
+        </div>
+        <div>
+        <table>
+                <h4>Personal Data</h4>
+                <tr>
+                        <td>CNP</td>
+                        <td>{{patient['cnp']}}</td>
+                </tr>
+                <tr>
+                        <td>Phone number</td>
+                        <td>{{patient['phone']}}</td>
+                </tr>
+                <tr>
+                        <td>Birthday</td>
+                        <td>{{patient['date_of_birth']}}</td>
+                </tr>
+                <tr>
+                        <td>Religion</td>
+                        <td>{{patient['religion']}}</td>
+                </tr>
+        </table>
+        </div>
+        <div>
+                <table>
+                <h4>Codition Data</h4>
+                <tr>
+                        <td>Disease</td>
+                        <td>{{condition['disease']}}</td>
+                </tr>
+                <tr>
+                        <td>Manifestation</td>
+                        <td>{{condition['patient_manifestation']}}</td>
+                </tr>
+                <tr>
+                        <td>Unexpected Event</td>
+                        <td>{{condition['unexpected_events']}}</td>
+                </tr>
+                <tr>
+                        <td>Limitation</td>
+                        <td>{{condition['limitation']}}</td>
+                </tr>
+        </table>
+        </div>
+        <div>
+                <table>
+                <h4>Treatment</h4>
+                <tr>
+                        <td>Medical Supplies</td>
+                        <td>{{treatment['medical_supplies']}}</td>
+                </tr>
+                <tr>
+                        <td>Recommended Activities</td>
+                        <td>{{treatment['recommended_activities']}}</td>
+                </tr>
+                <tr>
+                        <td>Travel Perimeter</td>
+                        <td>{{treatment['travel_perimeter']}}</td>
+                </tr>
+        </table>
+        </div>
+        <div>
+                <table>
+                <h4>Residence</h4>
+                <tr>
+                        <td>Town</td>
+                        <td>{{house['town']}}</td>
+                </tr>
+                <tr>
+                        <td>Street</td>
+                        <td>{{house['street']}}</td>
+                </tr>
+                <tr>
+                        <td>Nr Street</td>
+                        <td>{{house['number_street']}}</td>
+                </tr>
+                <tr>
+                        <td>Floor</td>
+                        <td>{{room['floor']}}</td>
+                </tr>
+                <tr>
+                        <td>Nr Room</td>
+                        <td>{{room['number_room']}}</td>
+                </tr>
+        </table>
+        </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,48 @@
+#boards {
+    background-color: green;
+}
+
+.columns{
+    float: left;
+    margin-right: 1px;
+}
+
+body{
+    min-width: 620px;
+    background: #ddd url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/diagonal-noise.png);
+    font-family: sans-serif;
+}
+
+h1, .board-column-title{
+    font-weight: 100;
+    background: rgba(173, 161, 161, 0.6);
+    border: none;
+}
+
+.board-title{
+    font-weight: 100;
+    background: transparent;
+    border: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+    transform: scale(1.2, 1);
+}
+
+button{
+    background: #313030;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 4px 10px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}

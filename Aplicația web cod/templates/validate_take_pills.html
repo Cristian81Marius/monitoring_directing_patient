@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+
+
+{% block page_title %}
+        Patient take pills
+{% endblock %}
+
+{% block content %}
+
+<div>
+    {% if records_len != 0 %}
+    <table>
+        <h2> Video with patient taking pills </h2>
+
+        <tr>
+            <th>Data Taking</th>
+            <th>Recording</th>
+            <th>The patient took his pills?</th>
+        </tr>
+        {% for recording_data in records %}
+        <tr>
+            <td>{{recording_data['data_taking']}}</td>
+            <td>
+                <video width="320" height="240" controls>
+                <source src="{{recording_data['recorded']}}" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <form action="{{url_for('edit_validate_video', patient_id=patient_id)}}" method="post" enctype="multipart/form-data">
+                <select id="validate_video" name="validate_video" required>
+                    <option value="">{{recording_data['has_took_pill']}}</option>
+                    <option value="true">yes</option>
+                    <option value="false">not yet</option>
+                </select>
+                    <button type="submit">Submit</button>
+
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+
+    </table>
+    {% else %}
+    <h3> All video was validate </h3>
+    {% endif %}
+
+
+    {% if images_len != 0 %}
+    <table>
+            <h2> Error detecting pills  </h2>
+        <tr>
+            <th>Data Taking</th>
+            <th>Image Pills</th>
+            <th>Problem resolved?</th>
+        </tr>
+        {% for image_data in images %}
+        <tr>
+            <td>{{image_data['data_taking']}}</td>
+            <td>
+                <image src="{{image_data['image']}}" style="width:100px"></image>
+            </td>
+            <td>
+                <form action="{{url_for('edit_validate_image', patient_id=patient_id)}}" method="post" enctype="multipart/form-data">
+                <select id="validate_image" name="validate_image" required>
+                    <option value="">{{image_data['problem_solved']}}</option>
+                    <option value="true">yes</option>
+                    <option value="false">not yet</option>
+                </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <h3> All image was validate </h3>
+    {% endif %}
+</div>
+
+{% endblock %}

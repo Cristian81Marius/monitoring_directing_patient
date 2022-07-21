@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+
+{% block page_title %}
+        New House
+{% endblock %}
+
+{% block content %}
+
+<div class="center">
+        <div>
+                <form action="/add/new/house" method="post" enctype="multipart/form-data">
+                    <table>
+                        <tr>
+                            <td> Residence name </td>
+                            <td> <input type="text" id="residence_name" name="residence_name" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Town </td>
+                            <td> <input type="text" id="town" name="town" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Name Street </td>
+                            <td> <input type="text" id="street" name="street" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Number Street </td>
+                            <td> <input type="number" id="number" name="number" min="0" step="1" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Capacity </td>
+                            <td> <input type="number" id="capacity" name="capacity" min="1" step="1" required> </td>
+                        </tr>
+                        <tr>
+                            <td> Maps Link </td>
+                            <td> <textarea id="link_maps" name="link_maps" rows="2" cols="30" required></textarea> </td>
+                        </tr>
+                    </table>
+                    <button type="submit" class="btn btn-dark">Add house!</button>
+                </form>
+        </div>
+</div>
+
+
+
+{% endblock %}

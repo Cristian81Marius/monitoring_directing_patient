@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+        Patients from house
+{% endblock %}
+
+{% block content %}
+<div class="center">
+    <h2>Welcome to the house in {{house['town']}} on {{house['street']}} street number {{house['number_street']}}</h2>
+</div>
+<div class="center">
+    <h3>Here you can see the rooms</h3>
+    <table>
+        <tr>
+            <th>Number Room</th>
+            <th>Floor</th>
+            <th>Comfort</th>
+            <th>Patient profile</th>
+        </tr>
+        {% for room in rooms %}
+        <tr>
+            <td>{{room['number_room']}}</td>
+            <td>{{room['floor']}}</td>
+            <td>{{room['comfort']}}</td>
+            <td><a href="{{url_for('patient_profile', patient_id=room['patient_id'])}}">Profile patient</a> </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
