@@ -28,6 +28,6 @@
   <li>View product details</li>
   <li>Filters for easier navigation</li>
   <li>A welcoming and visually appealing design</li>
+ </ul>
 <h2>Getting Started</h2>
-</ul>
 <p>To run the application, simply clone the repository and open it in Visual Studio. Ensure that you have the Microsoft SQL Server installed and configured. Once the solution is loaded, you can run the application by clicking the "Start" button or pressing F5.</p>
