@@ -2,9 +2,9 @@
 <h2>Introduction</h2>
 <p>The Patient Management System is a comprehensive solution for managing patients in their homes. It consists of three components:</p>
 <ul>
-  <li><h3>Mobile Application</h3></li>
-  <li><h3>Monitoring System</h3></li>
-  <li><h3>Web Application</h3></li>
+  <li><h4>Mobile Application</h4></li>
+  <li><h4>Monitoring System</h4></li>
+  <li><h4>Web Application</h4></li>
 </ul>
 <h2>Mobile Application</h2>
 <p>The mobile application is developed using Xamarin and allows patients to extract their location if the location services are turned on. It also allows patients to ask questions to their caretakers.</p>
