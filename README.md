@@ -1,33 +1,16 @@
-<h1>Board Game Web Application</h1>
-
-<p>This web application was created for the purpose of selling board games. It was developed using the ASP.NET C# MVC and Microsoft SQL modules, which provide a solid framework for building web applications and managing the database.</p>
-
-<h2>Technology Stack</h2>
-
+<h1>Patient Management System</h1>
+<h2>Introduction</h2>
+<p>The Patient Management System is a comprehensive solution for managing patients in their homes. It consists of three components:</p>
 <ul>
-  <li>ASP.NET C# MVC</li>
-  <li>Microsoft SQL Server</li>
-  <li>Spatially oriented objects</li>
-  <li>Bootstrap (for a visually appealing interface)</li>
+  <li><h2>Mobile Application</h2></li>
+  <li><h2>Monitoring System</h2></li>
+  <li><h2>Web Application</h2></li>
 </ul>
-
-<h2>Architecture</h2>
-
-<p>The application follows the Model-View-Controller (MVC) pattern, with the following components:</p>
-
-<ul>
-  <li>Model: Objects are created in this layer, representing the data and business logic of the application.</li>
-  <li>View: The front-end of the application, where the client interacts with the website.</li>
-  <li>Controller: The middle-man between the model and view, responsible for handling user input, interacting with the model, and updating the view.</li>
-</ul>
-
-<h2>Features</h2>
-<ul>
-  <li>Add a game to stock</li>
-  <li>Add a product to the basket</li>
-  <li>View product details</li>
-  <li>Filters for easier navigation</li>
-  <li>A welcoming and visually appealing design</li>
- </ul>
-<h2>Getting Started</h2>
-<p>To run the application, simply clone the repository and open it in Visual Studio. Ensure that you have the Microsoft SQL Server installed and configured. Once the solution is loaded, you can run the application by clicking the "Start" button or pressing F5.</p>
+<h2>Mobile Application</h2>
+<p>The mobile application is developed using Xamarin and allows patients to extract their location if the location services are turned on. It also allows patients to ask questions to their caretakers.</p>
+<h2>Monitoring System</h2>
+<p>The monitoring system is built using a Raspberry Pi, a camera, and an ultrasonic sensor. The system has the role of observing the patient when taking pills. The code for the monitoring system is written in Python.</p>
+<h2>Web Application</h2>
+<p>The web application is developed using Python (backend), HTML, Bootstrap, and JavaScript (frontend) and is connected to a PostgreSQL database. The web application provides a platform for caretakers to manage patient data, track the patient's health status, and receive alerts in case of any issues.</p>
+<h2>Conclusion</h2>
+<p>The Patient Management System is a comprehensive solution for managing patients in their homes. With its advanced features, the system ensures the safety and well-being of patients while allowing caretakers to manage patients efficiently.</p>
