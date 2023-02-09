@@ -28,6 +28,47 @@
   <img width = "460" height="300" src="https://user-images.githubusercontent.com/92048815/217922619-1f36603d-e4e1-4676-b031-abc5009f2aab.png">
 </p>
 
+<h2>Technologies Used</h2>
+<p>This project was built using a combination of cutting-edge technologies, including:</p>
+<ul>
+  <li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_2019_icon.svg/1024px-Visual_Studio_2019_icon.svg.png" alt="Visual Studio Logo" height="42" width="42">
+    <strong>Visual Studio</strong> - A popular integrated development environment (IDE) used for building Windows applications.
+  </li>
+  <li>
+    <img src="https://docs.microsoft.com/en-us/xamarin/get-started/media/home/logo.png" alt="Xamarin Logo" height="42" width="42">
+    <strong>Xamarin</strong> - An open-source platform for building cross-platform mobile applications using C# and .NET.
+  </li>
+  <li>
+    <img src="https://cdn.worldvectorlogo.com/logos/c-sharp-1.svg" alt="C# Logo" height="42" width="42">
+    <strong>C#</strong> - A powerful, object-oriented programming language for building Windows applications and web services.
+  </li>
+  <li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" alt="Python Logo" height="42" width="42">
+    <strong>Python</strong> - A high-level programming language known for its simplicity, readability, and versatility.
+  </li>
+  <li>
+    <img src="https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png" alt="Flask Logo" height="42" width="42">
+    <strong>Flask</strong> - A micro web framework for Python, perfect for small to medium-sized projects.
+  </li>
+  <li>
+    <img src="https://cdn.worldvectorlogo.com/logos/html5.svg" alt="HTML5 Logo" height="42" width="42">
+    <strong>HTML and CSS</strong> - The foundation of all websites, used for creating the structure and styling of this project's front-end.
+  </li>
+  <li>
+    <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" alt="Bootstrap Logo" height="42" width="42">
+    <strong>Bootstrap</strong> - A popular front-end framework for quickly styling web applications with pre-made components.
+  </li>
+  <li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Firebase_Logo.svg/1024px-Firebase_Logo.svg.png" alt="Firebase Logo" height="42" width="42">
+    <strong>Firebase</strong> - A cloud-based, scalable database solution for storing and retrieving data in real-time.
+  </li>
+  <li>
+    <img src="https://www.postgresql.org/about/logo/" alt="Firebase Logo" height="42" width="42">
+    <li><strong>PostgreSQL</strong> - An open-source, powerful, and scalable relational database management system.</li>
+  </li>
+</ul>
+
 <h2>Conclusion</h2>
 <p>The Patient Management System is a comprehensive solution for managing patients in their homes. With its advanced features, the system ensures the safety and well-being of patients while allowing caretakers to manage patients efficiently.</p>
 
