@@ -8,7 +8,7 @@
 </ul>
 <h2>Mobile Application</h2>
 <p>The mobile application is developed using Xamarin and allows patients to extract their location if the location services are turned on. It also allows patients to ask questions to their caretakers.</p>
-![image](https://user-images.githubusercontent.com/92048815/217922408-f05cb1b0-7dea-4f21-b616-bdc5f3478969.png)
+![alt text](https://user-images.githubusercontent.com/92048815/217922408-f05cb1b0-7dea-4f21-b616-bdc5f3478969.png)
 
 <h2>Monitoring System</h2>
 <p>The monitoring system is built using a Raspberry Pi, a camera, and an ultrasonic sensor. The system has the role of observing the patient when taking pills. The code for the monitoring system is written in Python.</p>
