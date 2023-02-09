@@ -32,27 +32,27 @@
 <p>This project was built using a combination of cutting-edge technologies, including:</p>
 <ul>
   <li>
-    <img src="https://1000logos.net/wp-content/uploads/2020/08/Visual-Studio-Logo-640x400.png" alt="Visual Studio Logo" height="42" width="52">
+    <img src="https://1000logos.net/wp-content/uploads/2020/08/Visual-Studio-Logo-640x400.png" alt="Visual Studio Logo" height="42" width="50">
     - A popular integrated development environment (IDE) used for building Windows applications.
   </li>
   <li>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Xamarin-logo.svg/330px-Xamarin-logo.svg.png" alt="Xamarin Logo" height="42" width="52">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Xamarin-logo.svg/330px-Xamarin-logo.svg.png" alt="Xamarin Logo" height="42" width="62">
     - An open-source platform for building cross-platform mobile applications using C# and .NET.
   </li>
   <li>
-    <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="C# Logo" height="42" width="52">
+    <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="C# Logo" height="42" width="50">
     - A powerful, object-oriented programming language for building Windows applications and web services.
   </li>
   <li>
-    <img src="https://www.python.org/static/img/python-logo@2x.png" alt="Python Logo" height="42" width="52">
+    <img src="https://www.python.org/static/img/python-logo@2x.png" alt="Python Logo" height="42" width="62">
     - A high-level programming language known for its simplicity, readability, and versatility.
   </li>
   <li>
-    <img src="https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png" alt="Flask Logo" height="42" width="52">
+    <img src="https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png" alt="Flask Logo" height="42" width="62">
     - A micro web framework for Python, perfect for small to medium-sized projects.
   </li>
   <li>
-    <img src="https://dominiqueclarke.github.io/Intro-to-HTML-Building-a-Portfolio-Site/img/html-css.jpg" alt="HTML5 Logo" height="42" width="52">
+    <img src="https://dominiqueclarke.github.io/Intro-to-HTML-Building-a-Portfolio-Site/img/html-css.jpg" alt="HTML5 Logo" height="42" width="58">
     - The foundation of all websites, used for creating the structure and styling of this project's front-end.
   </li>
   <li>
