@@ -21,10 +21,13 @@
 
 ![App Screenshot](https://user-images.githubusercontent.com/92048815/217922668-89570aa2-b8ec-404d-8f3d-f7cb569e5f84.png | width=100)
 
+<p align="center">
+  <img width = "460" height="300" src="https://user-images.githubusercontent.com/92048815/217922668-89570aa2-b8ec-404d-8f3d-f7cb569e5f84.png">
+</p>
+
 ![App Screenshot](https://user-images.githubusercontent.com/92048815/217922619-1f36603d-e4e1-4676-b031-abc5009f2aab.png | width=100)
 
 <h2>Conclusion</h2>
 <p>The Patient Management System is a comprehensive solution for managing patients in their homes. With its advanced features, the system ensures the safety and well-being of patients while allowing caretakers to manage patients efficiently.</p>
-## Screenshots
 
 
