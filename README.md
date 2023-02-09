@@ -17,7 +17,6 @@
 <h2>Web Application</h2>
 <p>The web application is developed using Python (backend), HTML, Bootstrap, and JavaScript (frontend) and is connected to a PostgreSQL database. The web application provides a platform for caretakers to manage patient data, track the patient's health status, and receive alerts in case of any issues.</p>
 ![App Screenshot](https://user-images.githubusercontent.com/92048815/217922668-89570aa2-b8ec-404d-8f3d-f7cb569e5f84.png)
-![App Screenshot](https://user-images.githubusercontent.com/92048815/217922619-1f36603d-e4e1-4676-b031-abc5009f2aab.png)
 
 
 
@@ -25,4 +24,5 @@
 <p>The Patient Management System is a comprehensive solution for managing patients in their homes. With its advanced features, the system ensures the safety and well-being of patients while allowing caretakers to manage patients efficiently.</p>
 ## Screenshots
 
+![App Screenshot](https://user-images.githubusercontent.com/92048815/217922619-1f36603d-e4e1-4676-b031-abc5009f2aab.png)
 
