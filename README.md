@@ -21,3 +21,6 @@
 
 <h2>Conclusion</h2>
 <p>The Patient Management System is a comprehensive solution for managing patients in their homes. With its advanced features, the system ensures the safety and well-being of patients while allowing caretakers to manage patients efficiently.</p>
+## Screenshots
+
+![App Screenshot](https://user-images.githubusercontent.com/92048815/217922408-f05cb1b0-7dea-4f21-b616-bdc5f3478969.png)
