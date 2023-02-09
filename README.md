@@ -64,7 +64,7 @@
     - A cloud-based, scalable database solution for storing and retrieving data in real-time.
   </li>
   <li>
-    <img src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="Firebase Logo"">
+    <img src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="Firebase Logo"  height="42" width="52">
      - An open-source, powerful, and scalable relational database management system.
   </li>
 </ul>
