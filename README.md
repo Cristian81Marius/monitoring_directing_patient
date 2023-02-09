@@ -1,4 +1,5 @@
 <h1>Patient Management System</h1>
+<p>This web application is designed to manage patients and provide real-time monitoring and management of their healthcare needs. The app allows users to track the location of patients in real-time, receive their questions and concerns, and monitor their medication compliance through video recording. Additionally, it manages important personal information such as current address, medical prescriptions, and health status, providing a comprehensive and streamlined solution for patient care. With its user-friendly interface and advanced features, this app is an essential tool for healthcare providers and caregivers looking to improve patient outcomes and streamline their work processes.</>
 <h2>Introduction</h2>
 <p>The Patient Management System is a comprehensive solution for managing patients in their homes. It consists of three components:</p>
 <ul>
